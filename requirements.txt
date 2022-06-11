@@ -5,3 +5,4 @@ pandas==1.4.2
 streamlit==1.10.0
 tensorflow==2.6.0
 opencv-contrib-python==4.5.5.64
+Pillow==9.1.0
