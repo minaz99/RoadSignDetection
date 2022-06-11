@@ -2,7 +2,7 @@ from keras.models import load_model
 import numpy as np
 import cv2
 from signClasses import classes
-from PIL import Image, ImageTk
+from PIL import Image
 import streamlit as st
 ##################################
 model = load_model('model.h5')
