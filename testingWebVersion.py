@@ -1,6 +1,6 @@
 from keras.models import load_model
 import numpy as np
-import cv2 as cv
+import cv2
 from signClasses import classes
 from tkinter import *
 from tkinter import filedialog
@@ -20,10 +20,10 @@ threshold = 0.98
 ##################################
 
 def preprocessing(img):
-    img = cv.cvtColor(img, cv.COLOR_BGR2GRAY)  # converting image to grayscale.
-    img = cv.equalizeHist(img)
+    img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)  # converting image to grayscale.
+    img = cv2.equalizeHist(img)
     img = img/255  # normalizing image.
-    img = cv.resize(img, (32, 32))  # resizing it.
+    img = cv2.resize(img, (32, 32))  # resizing it.
     img = img.reshape(1, 32, 32, 1)
     return img
 
