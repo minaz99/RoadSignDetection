@@ -2,11 +2,8 @@ from keras.models import load_model
 import numpy as np
 import cv2
 from signClasses import classes
-from tkinter import *
-from tkinter import filedialog
 from PIL import Image, ImageTk
 import streamlit as st
-import threading
 ##################################
 model = load_model('model.h5')
 width = 640
