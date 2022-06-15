@@ -42,4 +42,5 @@ if uploaded_file is not None:
     predicted, probVal = predict(imageData)
     st.write(predicted)
     st.write(probVal)
-st.write("Created by: Akshma Atreja, Katerina Gkoltsou, Mina Hany, Rana Sahin \n students of Warsaw University Of Technology in Poland")
+st.write("Created by: Akshma Atreja, Katerina Gkoltsou, Mina Hany, Rana Sahin")
+st.write("students of Warsaw University Of Technology in Poland")
